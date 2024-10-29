@@ -1,47 +1,84 @@
-# Astro Starter Kit: Minimal
+# Instalaciones Recomendadas
 
-```sh
-npm create astro@latest -- --template minimal
+<p align="center">
+  <a href="https://astro.build/" target="blank"><img src="https://devtalles.com/images/astro.png" width="200" height="200" alt="Astro Logo" /></a>
+  
+ <div align="center">
+   <h2>Astro: Astro:  <small>El framework para sitios web orientados al contenido<small></h2>
+   </div>
+
+</p>
+
+## Requeridos
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+- [Node](https://nodejs.org/en)
+
+## Programa para pruebas de API
+
+- [Postman](https://www.postman.com/downloads/)
+
+- [Insomnia](https://insomnia.rest/)
+
+## SQLite Viewers
+
+- [SQLiteBrowser](https://sqlitebrowser.org/)
+
+- [Table Plus](https://tableplus.com/)
+
+### Tema que estoy usando en VSCode:
+
+- [Tokyo Night Theme](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+
+- [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### Instalaciones adicionales
+
+- **Necesaria** - [**Astro** - Language Support](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
+
+- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+
+- [.env](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+- [Console Ninja](https://marketplace.visualstudio.com/items?itemName=WallabyJs.console-ninja)
+
+- [DotEnv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+
+- [Easy Snippet](https://marketplace.visualstudio.com/items?itemName=inu1255.easy-snippet)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+- [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
+
+- [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
+# Hoja de Atajos
+
+[Hoja de Atajos - Astro](https://github.com/Klerith/mas-talento/blob/main/astro/astro-cheat-sheet.pdf)
+
+## Nota con auto-importaciones
+
+Esto puede ayudarles a tener mejores sugerencias y auto-importaciones en archivos de Vue y Astro usando VSCode.
+
+Abran los "settings.json" y agreguen estas dos líneas
+
+```
+"typescript.suggest.autoImports": true,
+"javascript.suggest.autoImports": true,
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+# Wallpapers que uso
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
 
-## 🚀 Project Structure
+## Comunidad de Discord
 
-Inside of your Astro project, you'll see the following folders and files:
+Los invitamos a que se unan a nuestra comunidad de estudiantes en Discord y habla con personas que también estan aprendiendo igual que tu sobre diversas tecnologías.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<a href="https://discord.gg/KySgxtdKv6" target="blank">
+<img src="https://files.cdn.thinkific.com/cdn-cgi/image/width=1920,dpr=3,onerror=redirect/file_uploads/643563/images/c4f/52b/ecc/HOME-BANNER-COMUNIDAD-discord.jpg">
+</a>
