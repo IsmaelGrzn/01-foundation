@@ -1,16 +1,30 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
 
+//Server Only
+const name = "Ismael Garzon Sanchez";
+const title = " Home Page";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<!-- Client -->
+<MainLayout title={title}>
+  <h1>{name}</h1>
+  <!-- si yo construyo la aplicacion, la hora no va a cambiar por mucho que yo refresque el navegador, se queda grabada la hora de construccion  -->
+  <p>Momento Actual : {new Date().toLocaleTimeString()}</p>
+  <p id="current-time">Momento Actual Real :</p>
+  <footer>2023</footer>
+
+  <!-- en cambio aqui se refresca el año y lo cambia  -->
+  <script>
+    //Client Only, client side rendering
+    const currentYear: number = new Date().getFullYear();
+    const footer = document.querySelector("footer") as HTMLElement;
+    footer.innerText = `Año : ${currentYear}`;
+
+    const currentHour: string = new Date().toLocaleTimeString();
+    const currentTimeParagraph = document.querySelector(
+      "#current-time"
+    ) as HTMLParagraphElement;
+    currentTimeParagraph.innerText = `Momento Actual Real : ${currentHour}`;
+  </script>
+</MainLayout>
